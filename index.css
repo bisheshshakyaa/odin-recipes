@@ -1,0 +1,31 @@
+*{ 
+  margin-left: 12px;
+}
+body {
+  font-family: "Poppins";
+}
+
+.Heading { 
+font-size: xx- large;
+font-style: oblique;
+color: rgb(249, 121, 142);
+}
+
+.food { 
+  font-family: serif;
+  font-size: small;
+  color: black;
+}
+.food::selection { 
+  background-color: rgb(159, 239, 159);
+}
+.hmm::selection{  
+  color: black;
+  background: rgb(159, 239, 159);
+}
+a:link{ 
+  color: rgb(249, 121, 142);
+}
+a:visited{ 
+  color: green;
+}
