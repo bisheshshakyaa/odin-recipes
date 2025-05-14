@@ -4,7 +4,18 @@
 body {
   font-family: "Poppins";
 }
+.navi-div { 
+  display: flex;
+}
 
+.bar{ 
+  background-color: rgb(208, 207, 207);
+  color: white;
+  font-size: x-large;
+  font-family: "Poppins";
+  
+  border-radius: 12px;
+}
 .Heading { 
 font-size: xx- large;
 font-style: oblique;
@@ -19,6 +30,9 @@ color: rgb(249, 121, 142);
 .food::selection { 
   background-color: rgb(159, 239, 159);
 }
+.hmm { 
+  padding: x 24px;;
+}
 .hmm::selection{  
   color: black;
   background: rgb(159, 239, 159);
@@ -28,4 +42,13 @@ a:link{
 }
 a:visited{ 
   color: green;
+}
+.img-div{  
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.img { 
+  width: 500px;
+  height: 300px;
 }
